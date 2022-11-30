@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<body>
+    <h1><center> Table</center></h1>
+    <table border="15" width="400px" align="center" height="400px" bgcolor="skyblue">
+        <tr>
+            <td>
+                <table border="4" width="300px" align="center" height="300px" bgcolor="LIGHTPINK">
+                <tr>
+                    <td>
+                        <table border="4" width="200px" align="center" height="200px" bgcolor="lightgreen">
+                            <tr>
+                                <td>
+                                    <table border="4" width="100px" align="center" height="100px" bgcolor="yellow">
+                                        <tr>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            </td>
+        </tr>
+    </table>
+    <BR><BR><HR>
+    <CENTER><H1><U><I> ✧･ﾟ: *✧･ﾟ:*  NESTED TABLE  ✧･ﾟ: *✧･ﾟ:*</I></U></H1></CENTER>
+
+    <center> <table border="1">
+         <thead>
+          <tr>
+             
+                 <th bgcolor="BROWN">HEADER COLUMN 1</th>
+                 <th  bgcolor="SKYBLUE">HEADER COLUMN 2</th>
+                 <th  bgcolor="MAGENTA">HEADER COLUMN 3</th>
+                 <th  bgcolor="CYAN">HEADER COLUMN 4</th>
+ 
+             
+          </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td> <U>ROW2-item1</U></td>
+                 <td><U> row2-item2</U></td>
+                 <td rowspan="2">
+                     <h4>Row 2: Nested Table 1</h4>
+                     <table border="1" bgcolor="yellow">                                      
+                         <tr>
+                             <th bgcolor="BLUE">Row 1 Header</th>
+                             <td>item</td>
+                         </tr>
+                         <tr>
+                             <th bgcolor="YELLOW">Row 2 Header</th>
+                             <td>item</td>
+                         </tr>
+                         <tr>
+                             <th bgcolor="SKYBLUE">Row 3 Header</th>
+                             <td>item</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td bgcolor="CYAN"> row2-item4 <br> a second line</td>
+                </tr>
+                <tr>
+                    <td bgcolor="RED">
+                        <h4 BGCOLOR="YELLOW"> Row 3: Nested Table 2</h4>
+                        <table border=1  bgcolor="orange">
+                            <tr>
+                                <th>Row 1 Header</th>
+                                <td>item</td>
+                            </tr>
+                            <tr>
+                               <th>Row 2 Header</th>
+                               <td>item</td>
+                           </tr>
+                       </table>
+                   </td>
+                   <td bgcolor="BLUE">Row 3 - Item 2</td>
+                   <td bgcolor="PINK" rowspan="2">Row 3 - Item 3</td>
+               </tr>
+               <tr>
+                   <td bgcolor="CYAN">Row 4 - Item 1</td>
+                   <td bgcolor="VOILET">Row 4 - Item 2</td>
+                   <td BGCOLOR="YELLOW">Row 4 - Item 3</td>
+               </tr>
+               <tr>
+                   <td bgcolor="SKYBLUE" colspan="4">Row 5 - Last row of outer table</td>
+                 
+             </tr>
+             
+         </tbody>
+ 
+     </table></center>
+</body>
+</html>  
